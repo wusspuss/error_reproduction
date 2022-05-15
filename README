@@ -1,0 +1,3 @@
+Works (as in produces no error): pypy3 build.py && tclsh test.tcl
+Doesn't: python3 build.py && tclsh test.tcl
+That 'tclsh test.tcl' doesn't do anything relevant besides loading the .so and calling Mytest_Init.
